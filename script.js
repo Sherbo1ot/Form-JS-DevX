@@ -24,6 +24,8 @@ const setSuccess = (element) => {
   errorDisplay.innerText = "";
   inputControl.classList.add("success");
   inputControl.classList.remove("error");
+
+  window.location = "https://portfolio-devx.netlify.app/";
 };
 
 const isValidEmail = (email) => {
