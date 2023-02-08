@@ -146,12 +146,34 @@ form {
   -moz-filter: blur(52px);
   -o-filter: blur(52px);
   -ms-filter: blur(52px);
-  filter: blur(52px);
   border-radius: 100%;
   width: 180px;
   height: 180px;
   position: absolute;
   top: 28%;
+  animation: blurAnim 18s infinite;
+}
+
+@keyframes blurAnim {
+  0% {
+    top: 28%;
+  }
+
+  25% {
+    top: 38%;
+  }
+
+  50% {
+    top: 28%;
+  }
+
+  75% {
+    top: 25%;
+  }
+
+  100% {
+    top: 28%;
+  }
 }
 
 footer {
