@@ -60,6 +60,8 @@ p {
   position: fixed;
   height: 100vh;
   width: 100%;
+
+  z-index: 1000;
   pointer-events: none;
 }
 
@@ -71,7 +73,7 @@ p {
   height: calc(100% - 70px);
   visibility: hidden;
   opacity: 1;
-  transition: .3s;
+  transition: .4s;
   background: #000000;
 }
 
@@ -192,6 +194,7 @@ form {
   margin-top: 130px;
 
   position: relative;
+  z-index: 1;
 
   border-radius: 30px;
 
@@ -341,13 +344,13 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100vw;
+  padding: 20px 0 40px 0;
   background-color: rgb(236, 236, 236);
 }
 
 .footer-title {
   text-align: center;
   line-height: 5px;
-  padding-bottom: 50px;
 }
 
 .footer-title h2 {
