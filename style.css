@@ -32,6 +32,8 @@ form {
   padding: 30px;
   margin-top: 130px;
 
+  position: relative;
+
   border-radius: 30px;
 
   display: flex;
@@ -133,6 +135,23 @@ form {
   border: 1px solid rgb(111, 0, 255);
 
   background-color: transparent;
+}
+
+.blur-box {
+  background: -webkit-linear-gradient(315deg, #76ffdb, #65ffff, #3793f0);
+  background: linear-gradient(135deg, #76ffdb, #65ffff, #3793f0);
+  filter: blur(40px);
+  z-index: -10;
+  -webkit-filter: blur(52px);
+  -moz-filter: blur(52px);
+  -o-filter: blur(52px);
+  -ms-filter: blur(52px);
+  filter: blur(52px);
+  border-radius: 100%;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 28%;
 }
 
 footer {
