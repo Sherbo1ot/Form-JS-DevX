@@ -24,8 +24,6 @@ const setSuccess = (element) => {
   errorDisplay.innerText = "";
   inputControl.classList.add("success");
   inputControl.classList.remove("error");
-
-  window.location = "https://portfolio-devx.netlify.app/";
 };
 
 const isValidEmail = (email) => {
@@ -50,5 +48,7 @@ const validateInputs = () => {
     setError(email, "Provide a valid email address");
   } else {
     setSuccess(email);
+
+    window.location = "https://portfolio-devx.netlify.app/";
   }
 };
