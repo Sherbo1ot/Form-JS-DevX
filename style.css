@@ -82,6 +82,9 @@ p {
   opacity: .6;
 }
 
+.logo {
+}
+
 .button {
   position: relative;
   display: flex;
